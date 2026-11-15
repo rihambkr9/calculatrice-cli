@@ -1,0 +1,11 @@
+#!/bin/sh
+
+echo "Running pre-commit checks..."
+mvn -B clean verify
+
+if [ $? -ne 0 ]; then
+    echo "Pre-commit checks failed!"
+    exit 1
+fi
+
+echo "Pre-commit checks passed!"
