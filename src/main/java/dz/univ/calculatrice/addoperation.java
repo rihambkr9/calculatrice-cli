@@ -1,6 +1,6 @@
 package dz.univ.calculatrice;
 
-public class AddOperation implements Operation {
+public class addoperation implements Operation {
 
     @Override
     public double execute(final double a, final double b) {

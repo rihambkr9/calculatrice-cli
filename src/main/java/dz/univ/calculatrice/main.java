@@ -2,7 +2,7 @@ package dz.univ.calculatrice;
 
 import java.util.Scanner;
 
-public class Main {
+public class main {
 
     public static void main(String[] args) {
 
@@ -24,9 +24,9 @@ public class Main {
         final Operation operation;
 
         if (choice == 1) {
-            operation = new AddOperation();
+            operation = new addoperation();
         } else if (choice == 2) {
-            operation = new SubtractOperation();
+            operation = new subtractoperation();
         } else {
             System.out.println("Invalid choice!");
             scanner.close();
